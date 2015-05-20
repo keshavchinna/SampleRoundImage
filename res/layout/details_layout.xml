@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_centerInParent="true">
+        <ImageView
+                android:id="@+id/pet_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/app_name"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/user_type"
+                  android:text="Owner"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/user_name"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/time"
+                  android:text="Met: 42 Times"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="in"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/walks"
+                  android:text="56 Walks"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/email"
+                  android:text="mary@gmail.com"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/phine"
+                  android:text="555-555-999-555"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                />
+    </LinearLayout>
+    <Button android:layout_width="wrap_content"
+            android:id="@+id/tag_id"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>
